@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mod1",
+    "name": "홍길동",
+    "bio": "경영학과 91학번. ㈜한국미래그룹 대표이사. 성균인 발전기금 기부자. 후배들에게 독서를 통한 경영 인사이트를 나누고자 합니다.",
+    "profileImage": "/images/moderators/hong.jpg",
+    "department": "경영학과",
+    "enrollYear": 1991,
+    "achievement": "㈜한국미래그룹 대표이사, 경영 분야 저서 3권"
+  },
+  {
+    "id": "mod2",
+    "name": "김영희",
+    "bio": "국어국문학과 명예교수. 40년간 한국 문학을 연구하고 가르쳐왔습니다. 고전의 가치를 현대적으로 재해석하는 독서 모임을 이끌고 있습니다.",
+    "profileImage": "/images/moderators/kim.jpg",
+    "department": "국어국문학과",
+    "enrollYear": 1978,
+    "achievement": "국어국문학과 명예교수, 한국문학상 수상"
+  },
+  {
+    "id": "mod3",
+    "name": "이승기",
+    "bio": "물리학과 05학번. 과학 커뮤니케이터이자 유튜버. 복잡한 과학을 쉽게 풀어내는 것이 삶의 모토입니다.",
+    "profileImage": "/images/moderators/lee.jpg",
+    "department": "물리학과",
+    "enrollYear": 2005,
+    "achievement": "과학 유튜버 (구독자 50만), 과학 에세이 2권 출간"
+  }
+]

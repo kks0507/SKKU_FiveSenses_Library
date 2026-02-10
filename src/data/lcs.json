@@ -1,0 +1,7 @@
+[
+  { "id": "lc1", "name": "소나무반", "year": 2025, "memberIds": ["u1", "u2"] },
+  { "id": "lc2", "name": "대나무반", "year": 2025, "memberIds": ["u3", "u5"] },
+  { "id": "lc3", "name": "은행나무반", "year": 2025, "memberIds": ["u4", "u6"] },
+  { "id": "lc4", "name": "단풍나무반", "year": 2025, "memberIds": ["u7", "u8"] },
+  { "id": "lc5", "name": "벚꽃나무반", "year": 2025, "memberIds": ["u9", "u10"] }
+]

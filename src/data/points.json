@@ -1,0 +1,22 @@
+[
+  { "id": "p1", "userId": "u1", "amount": 30, "type": "earn", "zone": "bookclub", "description": "북클럽 토론 참여 (2월)", "balanceAfter": 450, "createdAt": "2026-02-05T15:00:00Z" },
+  { "id": "p2", "userId": "u1", "amount": 25, "type": "earn", "zone": "narration", "description": "낭독 녹음 제출", "balanceAfter": 420, "createdAt": "2026-02-05T14:30:00Z" },
+  { "id": "p3", "userId": "u1", "amount": 15, "type": "earn", "zone": "listening", "description": "북 플레이리스트 생성", "balanceAfter": 395, "createdAt": "2026-02-08T10:00:00Z" },
+  { "id": "p4", "userId": "u1", "amount": 20, "type": "earn", "zone": "writing", "description": "필사 업로드", "balanceAfter": 380, "createdAt": "2026-02-05T10:00:00Z" },
+  { "id": "p5", "userId": "u1", "amount": 25, "type": "earn", "zone": "review", "description": "서평 작성", "balanceAfter": 360, "createdAt": "2026-02-05T14:30:00Z" },
+  { "id": "p6", "userId": "u1", "amount": -50, "type": "spend", "zone": null, "description": "오거서 몰 — 오거서 볼펜 교환", "balanceAfter": 245, "createdAt": "2026-02-06T12:00:00Z" },
+  { "id": "p7", "userId": "u2", "amount": 30, "type": "earn", "zone": "bookclub", "description": "북클럽 토론 참여", "balanceAfter": 380, "createdAt": "2026-02-05T15:00:00Z" },
+  { "id": "p8", "userId": "u2", "amount": 25, "type": "earn", "zone": "narration", "description": "낭독 녹음 제출", "balanceAfter": 350, "createdAt": "2026-02-06T10:15:00Z" },
+  { "id": "p9", "userId": "u2", "amount": 20, "type": "earn", "zone": "writing", "description": "필사 업로드", "balanceAfter": 325, "createdAt": "2026-02-03T14:20:00Z" },
+  { "id": "p10", "userId": "u2", "amount": 10, "type": "earn", "zone": "writing", "description": "좋아요 10개 달성 보너스", "balanceAfter": 335, "createdAt": "2026-02-04T18:00:00Z" },
+  { "id": "p11", "userId": "u2", "amount": 25, "type": "earn", "zone": "review", "description": "서평 작성", "balanceAfter": 360, "createdAt": "2026-01-28T16:00:00Z" },
+  { "id": "p12", "userId": "u3", "amount": 25, "type": "earn", "zone": "review", "description": "서평 작성", "balanceAfter": 320, "createdAt": "2026-02-03T10:00:00Z" },
+  { "id": "p13", "userId": "u3", "amount": 20, "type": "earn", "zone": "writing", "description": "필사 업로드", "balanceAfter": 295, "createdAt": "2026-02-06T09:45:00Z" },
+  { "id": "p14", "userId": "u3", "amount": 15, "type": "earn", "zone": "listening", "description": "북 플레이리스트 생성", "balanceAfter": 275, "createdAt": "2026-02-07T14:00:00Z" },
+  { "id": "p15", "userId": "u3", "amount": -100, "type": "spend", "zone": null, "description": "오거서 몰 — 모나미 세트 교환", "balanceAfter": 170, "createdAt": "2026-02-08T11:00:00Z" },
+  { "id": "p16", "userId": "u4", "amount": 25, "type": "earn", "zone": "review", "description": "서평 작성", "balanceAfter": 290, "createdAt": "2026-02-07T11:00:00Z" },
+  { "id": "p17", "userId": "u4", "amount": 20, "type": "earn", "zone": "writing", "description": "필사 업로드", "balanceAfter": 265, "createdAt": "2026-02-07T11:30:00Z" },
+  { "id": "p18", "userId": "u5", "amount": 25, "type": "earn", "zone": "narration", "description": "낭독 녹음 제출", "balanceAfter": 260, "createdAt": "2026-02-08T09:00:00Z" },
+  { "id": "p19", "userId": "u5", "amount": 25, "type": "earn", "zone": "review", "description": "서평 작성", "balanceAfter": 235, "createdAt": "2026-02-01T09:30:00Z" },
+  { "id": "p20", "userId": "u5", "amount": 20, "type": "earn", "zone": "writing", "description": "필사 업로드", "balanceAfter": 210, "createdAt": "2026-02-04T16:30:00Z" }
+]

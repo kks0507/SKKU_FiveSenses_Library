@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bc1",
+    "title": "2026년 2월 북클럽 — 경영의 아침",
+    "month": "2026-02",
+    "moderatorId": "mod1",
+    "bookId": "b11",
+    "description": "《나의 하루는 4시 30분에 시작된다》를 함께 읽고, 시간 관리와 자기주도적 삶에 대해 토론합니다. 좌장 홍길동 대표가 자신의 아침 루틴과 경영 철학을 나눕니다.",
+    "capacity": 30,
+    "currentMembers": 24,
+    "startDate": "2026-02-15",
+    "endDate": "2026-03-15",
+    "discussDate": "2026-03-08",
+    "discussLocation": "학술정보관 세미나실 B1 (온라인 병행)",
+    "status": "recruiting",
+    "createdAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "bc2",
+    "title": "2026년 2월 북클럽 — 고전의 재발견",
+    "month": "2026-02",
+    "moderatorId": "mod2",
+    "bookId": "b1",
+    "description": "《데미안》을 명예교수님과 함께 읽습니다. 성장이란 무엇인가, 자기 자신을 찾아가는 여정에 대해 깊이 있는 토론을 나눠봅니다.",
+    "capacity": 25,
+    "currentMembers": 22,
+    "startDate": "2026-02-10",
+    "endDate": "2026-03-10",
+    "discussDate": "2026-03-01",
+    "discussLocation": "학술정보관 세미나실 A3 (대면)",
+    "status": "active",
+    "createdAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "bc3",
+    "title": "2026년 1월 북클럽 — 우주로의 여행",
+    "month": "2026-01",
+    "moderatorId": "mod3",
+    "bookId": "b4",
+    "description": "《코스모스》를 읽고 과학 커뮤니케이터 이승기님과 함께 우주의 신비를 탐구합니다.",
+    "capacity": 30,
+    "currentMembers": 28,
+    "startDate": "2026-01-10",
+    "endDate": "2026-02-10",
+    "discussDate": "2026-02-01",
+    "discussLocation": "온라인 (Zoom)",
+    "status": "completed",
+    "createdAt": "2026-01-01T00:00:00Z"
+  }
+]

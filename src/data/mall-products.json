@@ -1,0 +1,10 @@
+[
+  { "id": "mp1", "name": "오거서 볼펜", "description": "오거서 로고가 새겨진 고급 볼펜. 0.5mm 블랙 잉크.", "imageUrl": "/images/mall/pen.jpg", "price": 50, "stock": 100, "category": "stationery", "status": "available" },
+  { "id": "mp2", "name": "모나미 세트", "description": "모나미 153 볼펜 5색 세트 + 오거서 파우치.", "imageUrl": "/images/mall/monami.jpg", "price": 100, "stock": 50, "category": "stationery", "status": "available" },
+  { "id": "mp3", "name": "성균 곰인형", "description": "성균관대학교 마스코트 곰인형 (25cm).", "imageUrl": "/images/mall/bear.jpg", "price": 200, "stock": 20, "category": "character", "status": "available" },
+  { "id": "mp4", "name": "오거서 노트", "description": "A5 사이즈 감성 노트. 독서 기록용으로 활용하세요.", "imageUrl": "/images/mall/notebook.jpg", "price": 80, "stock": 80, "category": "stationery", "status": "available" },
+  { "id": "mp5", "name": "독서 북마크 세트", "description": "금속 재질 북마크 3종 세트. 책갈피와 함께하는 독서.", "imageUrl": "/images/mall/bookmark.jpg", "price": 60, "stock": 60, "category": "stationery", "status": "available" },
+  { "id": "mp6", "name": "오거서 에코백", "description": "도서관 갈 때 딱! 오거서 로고 에코백.", "imageUrl": "/images/mall/ecobag.jpg", "price": 150, "stock": 30, "category": "etc", "status": "available" },
+  { "id": "mp7", "name": "오거서 키링", "description": "문호 칭호 달성자 전용 키링. (배지 5개 모두 획득 시 무료 증정)", "imageUrl": "/images/mall/keyring.jpg", "price": 0, "stock": 50, "category": "etc", "status": "available" },
+  { "id": "mp8", "name": "미니 독서등", "description": "클립형 LED 독서등. 어디서든 편안한 독서를.", "imageUrl": "/images/mall/light.jpg", "price": 180, "stock": 15, "category": "etc", "status": "available" }
+]

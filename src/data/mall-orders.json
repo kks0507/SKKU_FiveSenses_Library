@@ -1,0 +1,7 @@
+[
+  { "id": "mo1", "userId": "u1", "productId": "mp1", "pointsSpent": 50, "status": "received", "createdAt": "2026-02-06T12:00:00Z" },
+  { "id": "mo2", "userId": "u3", "productId": "mp2", "pointsSpent": 100, "status": "pending", "createdAt": "2026-02-08T11:00:00Z" },
+  { "id": "mo3", "userId": "u8", "productId": "mp4", "pointsSpent": 80, "status": "received", "createdAt": "2026-02-02T14:00:00Z" },
+  { "id": "mo4", "userId": "u1", "productId": "mp7", "pointsSpent": 0, "status": "received", "createdAt": "2026-02-08T10:00:00Z" },
+  { "id": "mo5", "userId": "u6", "productId": "mp5", "pointsSpent": 60, "status": "pending", "createdAt": "2026-02-09T09:00:00Z" }
+]

@@ -1,0 +1,10 @@
+[
+  { "id": "pr1", "zone": "bookclub", "activity": "discussion", "points": 30, "description": "북클럽 토론 참여 (1회)" },
+  { "id": "pr2", "zone": "bookclub", "activity": "review", "points": 20, "description": "북클럽 후기 작성" },
+  { "id": "pr3", "zone": "narration", "activity": "submit", "points": 25, "description": "낭독 녹음 제출" },
+  { "id": "pr4", "zone": "narration", "activity": "listen", "points": 10, "description": "오디오북 청취 완료" },
+  { "id": "pr5", "zone": "listening", "activity": "match", "points": 15, "description": "북 플레이리스트 생성 (매칭 1건)" },
+  { "id": "pr6", "zone": "writing", "activity": "upload", "points": 20, "description": "필사 업로드" },
+  { "id": "pr7", "zone": "writing", "activity": "likes_bonus", "points": 10, "description": "좋아요 10개 달성 보너스" },
+  { "id": "pr8", "zone": "review", "activity": "write", "points": 25, "description": "서평 작성 (300자 이상)" }
+]

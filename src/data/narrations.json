@@ -1,0 +1,45 @@
+{
+  "current": {
+    "id": "nar1",
+    "month": "2026-02",
+    "bookId": "b1",
+    "section": "제1장 \"두 세계\"",
+    "pageRange": "p.7 ~ p.24",
+    "description": "헤르만 헤세의 《데미안》 첫 장을 함께 낭독합니다. 소년 싱클레어가 밝은 세계와 어두운 세계 사이에서 느끼는 혼란과 성장의 첫 발걸음을 목소리로 담아주세요.",
+    "deadline": "2026-02-25",
+    "totalParticipants": 40,
+    "currentParticipants": 18,
+    "status": "open",
+    "createdAt": "2026-02-01T00:00:00Z"
+  },
+  "submissions": [
+    { "id": "ns1", "narrationId": "nar1", "userId": "u1", "section": "p.7~p.9", "audioUrl": "/audio/nar1_u1.mp3", "duration": 195, "status": "approved", "createdAt": "2026-02-05T14:30:00Z" },
+    { "id": "ns2", "narrationId": "nar1", "userId": "u2", "section": "p.9~p.12", "audioUrl": "/audio/nar1_u2.mp3", "duration": 240, "status": "approved", "createdAt": "2026-02-06T10:15:00Z" },
+    { "id": "ns3", "narrationId": "nar1", "userId": "u3", "section": "p.12~p.15", "audioUrl": "/audio/nar1_u3.mp3", "duration": 210, "status": "submitted", "createdAt": "2026-02-07T16:45:00Z" },
+    { "id": "ns4", "narrationId": "nar1", "userId": "u5", "section": "p.15~p.18", "audioUrl": "/audio/nar1_u5.mp3", "duration": 185, "status": "approved", "createdAt": "2026-02-08T09:00:00Z" }
+  ],
+  "archive": [
+    {
+      "id": "nar-arch1",
+      "month": "2026-01",
+      "bookId": "b5",
+      "title": "이달의 오디오북: 어린 왕자",
+      "section": "제1장 ~ 제5장",
+      "totalParticipants": 32,
+      "audioUrl": "/audio/archive_202601.mp3",
+      "duration": 1800,
+      "publishedAt": "2026-01-31T00:00:00Z"
+    },
+    {
+      "id": "nar-arch2",
+      "month": "2025-12",
+      "bookId": "b4",
+      "title": "이달의 오디오북: 코스모스",
+      "section": "제1장 \"코스모스의 해변\"",
+      "totalParticipants": 25,
+      "audioUrl": "/audio/archive_202512.mp3",
+      "duration": 2100,
+      "publishedAt": "2025-12-31T00:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  { "id": "c1", "userId": "u3", "targetType": "review", "targetId": "r1", "content": "저도 데미안 읽고 비슷한 감정을 느꼈어요. 특히 싱클레어가 크로머에게서 벗어나는 장면이 인상 깊었습니다.", "createdAt": "2026-02-05T16:00:00Z" },
+  { "id": "c2", "userId": "u5", "targetType": "review", "targetId": "r1", "content": "북클럽에서도 이 부분 토론했는데, 다양한 해석이 나와서 재미있었어요!", "createdAt": "2026-02-06T09:00:00Z" },
+  { "id": "c3", "userId": "u1", "targetType": "review", "targetId": "r3", "content": "저도 미움받을 용기 읽고 발표 공포증이 많이 줄었어요. 공감합니다.", "createdAt": "2026-01-29T10:00:00Z" },
+  { "id": "c4", "userId": "u4", "targetType": "review", "targetId": "r2", "content": "사피엔스 읽고 화폐에 대한 관점이 완전히 바뀌었습니다.", "createdAt": "2026-02-04T11:00:00Z" },
+  { "id": "c5", "userId": "u2", "targetType": "writing", "targetId": "w5", "content": "이 필사 너무 예뻐요! 글씨도 예쁘고 문장도 좋고.", "createdAt": "2026-02-03T12:00:00Z" },
+  { "id": "c6", "userId": "u7", "targetType": "writing", "targetId": "w1", "content": "데미안의 이 구절을 필사하다니 센스 있으시네요!", "createdAt": "2026-02-04T15:00:00Z" },
+  { "id": "c7", "userId": "u1", "targetType": "writing", "targetId": "w10", "content": "어린 왕자의 이 문장, 정말 좋아하는 구절이에요.", "createdAt": "2026-01-29T11:00:00Z" },
+  { "id": "c8", "userId": "u6", "targetType": "review", "targetId": "r4", "content": "저도 어릴 때 읽었을 때랑 완전히 다르게 다가왔어요.", "createdAt": "2026-02-02T14:00:00Z" },
+  { "id": "c9", "userId": "u9", "targetType": "writing", "targetId": "w8", "content": "이 첫 문장 정말 강렬하죠...", "createdAt": "2026-02-02T18:00:00Z" },
+  { "id": "c10", "userId": "u8", "targetType": "review", "targetId": "r7", "content": "남자로서 이 책을 읽고 많은 것을 반성했습니다.", "createdAt": "2026-02-01T20:00:00Z" }
+]

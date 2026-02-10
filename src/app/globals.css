@@ -1,26 +1,148 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Colors */
+  --green-900: #1a3409;
+  --green-800: #2D5016;
+  --green-700: #3d6b1e;
+  --green-600: #4d8526;
+  --green-500: #5da030;
+  --green-100: #e8f5d8;
+  --green-50: #f3fae8;
+
+  --amber-700: #a06b1b;
+  --amber-600: #C78D2B;
+  --amber-500: #d4a03a;
+  --amber-400: #e2b84e;
+  --amber-100: #fef3d0;
+  --amber-50: #fffbeb;
+
+  --cream: #FDF8ED;
+  --ivory: #FEFCF6;
+  --warm-gray-50: #faf8f5;
+  --warm-gray-100: #f0ece5;
+  --warm-gray-200: #e0dbd2;
+  --warm-gray-300: #c5bfb4;
+  --warm-gray-400: #a39d92;
+  --warm-gray-500: #7a756b;
+  --warm-gray-600: #5c574e;
+  --warm-gray-700: #3d3a33;
+  --warm-gray-800: #262420;
+  --warm-gray-900: #1a1917;
+
+  --red-500: #ef4444;
+  --red-100: #fee2e2;
+  --blue-500: #3b82f6;
+  --blue-100: #dbeafe;
+
+  /* Semantic */
+  --background: var(--ivory);
+  --foreground: var(--warm-gray-900);
+  --primary: var(--green-800);
+  --primary-hover: var(--green-700);
+  --primary-light: var(--green-50);
+  --accent: var(--amber-600);
+  --accent-hover: var(--amber-700);
+  --accent-light: var(--amber-50);
+  --card-bg: #ffffff;
+  --card-border: var(--warm-gray-100);
+  --muted: var(--warm-gray-500);
+  --muted-bg: var(--warm-gray-50);
+  --header-bg: var(--green-800);
+  --header-text: #ffffff;
+  --footer-bg: var(--warm-gray-800);
+  --footer-text: var(--warm-gray-300);
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-lg: 0 4px 16px rgba(0,0,0,0.08);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-light: var(--accent-light);
+  --color-card-bg: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-muted: var(--muted);
+  --color-muted-bg: var(--muted-bg);
+  --color-cream: var(--cream);
+  --color-warm-gray-50: var(--warm-gray-50);
+  --color-warm-gray-100: var(--warm-gray-100);
+  --color-warm-gray-200: var(--warm-gray-200);
+  --color-warm-gray-300: var(--warm-gray-300);
+  --color-warm-gray-400: var(--warm-gray-400);
+  --color-warm-gray-500: var(--warm-gray-500);
+  --color-warm-gray-600: var(--warm-gray-600);
+  --color-warm-gray-700: var(--warm-gray-700);
+  --color-warm-gray-800: var(--warm-gray-800);
+  --color-green-50: var(--green-50);
+  --color-green-100: var(--green-100);
+  --color-green-500: var(--green-500);
+  --color-green-600: var(--green-600);
+  --color-green-700: var(--green-700);
+  --color-green-800: var(--green-800);
+  --color-green-900: var(--green-900);
+  --color-amber-50: var(--amber-50);
+  --color-amber-100: var(--amber-100);
+  --color-amber-400: var(--amber-400);
+  --color-amber-500: var(--amber-500);
+  --color-amber-600: var(--amber-600);
+  --color-amber-700: var(--amber-700);
+  --color-red-500: var(--red-500);
+  --color-red-100: var(--red-100);
+  --color-blue-500: var(--blue-500);
+  --color-blue-100: var(--blue-100);
+  --color-header-bg: var(--header-bg);
+  --color-header-text: var(--header-text);
+  --color-footer-bg: var(--footer-bg);
+  --color-footer-text: var(--footer-text);
+  --font-sans: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--warm-gray-50); }
+::-webkit-scrollbar-thumb { background: var(--warm-gray-300); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--warm-gray-400); }
+
+/* Focus ring */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Zone icon colors */
+.zone-bookclub { color: var(--green-700); background: var(--green-50); }
+.zone-narration { color: #7c3aed; background: #f5f3ff; }
+.zone-listening { color: #2563eb; background: #eff6ff; }
+.zone-writing { color: var(--amber-700); background: var(--amber-50); }
+.zone-review { color: #dc2626; background: #fef2f2; }

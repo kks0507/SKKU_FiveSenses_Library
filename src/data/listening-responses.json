@@ -1,0 +1,93 @@
+{
+  "responses": [
+    {
+      "trigger": { "keywords": ["그리움", "보고 싶", "기다", "돌아오"] },
+      "analysis": {
+        "emotionKeywords": ["그리움", "아련함", "기다림"],
+        "mood": "서정적",
+        "emotionClass": "100 (철학/심리) · 800 (문학)",
+        "description": "입력하신 가사에서 '그리움'과 '기다림'의 감정이 느껴집니다. 떠나간 것에 대한 아련한 회고와 재회를 바라는 마음이 담겨 있네요."
+      },
+      "mappingIds": ["em1", "em2"]
+    },
+    {
+      "trigger": { "keywords": ["위로", "괜찮", "힘내", "울", "눈물", "아프"] },
+      "analysis": {
+        "emotionKeywords": ["위로", "따뜻함", "공감"],
+        "mood": "따뜻한",
+        "emotionClass": "100 (철학/심리) · 800 (문학)",
+        "description": "가사에서 따뜻한 위로의 감정이 느껴집니다. 힘든 시간을 보내고 있다면, 이 구절들이 작은 위안이 되길 바랍니다."
+      },
+      "mappingIds": ["em3", "em4"]
+    },
+    {
+      "trigger": { "keywords": ["시작", "도전", "꿈", "열정", "달려", "해낼"] },
+      "analysis": {
+        "emotionKeywords": ["도전", "열정", "시작"],
+        "mood": "에너지 넘치는",
+        "emotionClass": "100 (철학/심리) · 300 (사회과학)",
+        "description": "가사에서 새로운 도전을 향한 열정과 에너지가 느껴집니다. 용기를 내어 한 걸음 내딛는 순간, 세계가 달라집니다."
+      },
+      "mappingIds": ["em5", "em6"]
+    },
+    {
+      "trigger": { "keywords": ["혼자", "외로", "고독", "밤", "조용"] },
+      "analysis": {
+        "emotionKeywords": ["고독", "외로움", "성찰"],
+        "mood": "사색적",
+        "emotionClass": "100 (철학/심리) · 800 (문학)",
+        "description": "가사에서 고독과 내면의 성찰이 느껴집니다. 홀로 있는 시간은 자기 자신과 가장 깊이 만나는 시간이기도 합니다."
+      },
+      "mappingIds": ["em7", "em8"]
+    },
+    {
+      "trigger": { "keywords": ["화", "분노", "불공평", "싸우", "세상", "바꿔"] },
+      "analysis": {
+        "emotionKeywords": ["분노", "불의", "저항"],
+        "mood": "단호한",
+        "emotionClass": "300 (사회과학) · 800 (문학)",
+        "description": "가사에서 부당함에 대한 분노와 저항의 의지가 느껴집니다. 올바른 분노는 세상을 바꾸는 힘이 됩니다."
+      },
+      "mappingIds": ["em9", "em10"]
+    },
+    {
+      "trigger": { "keywords": ["신기", "놀라", "궁금", "왜", "어떻게", "세계"] },
+      "analysis": {
+        "emotionKeywords": ["경이", "호기심", "탐구"],
+        "mood": "지적 흥분",
+        "emotionClass": "400 (자연과학) · 500 (기술과학)",
+        "description": "가사에서 세상에 대한 호기심과 경이로움이 느껴집니다. 끝없는 질문이야말로 지식의 시작입니다."
+      },
+      "mappingIds": ["em11", "em12"]
+    },
+    {
+      "trigger": { "keywords": ["사랑", "좋아", "설레", "심장", "너", "함께"] },
+      "analysis": {
+        "emotionKeywords": ["사랑", "설렘", "행복"],
+        "mood": "로맨틱",
+        "emotionClass": "100 (철학/심리) · 800 (문학)",
+        "description": "가사에서 사랑과 설렘의 감정이 넘쳐납니다. 누군가를 향한 마음이 담긴 이 순간을 소중히 간직하세요."
+      },
+      "mappingIds": ["em13", "em14"]
+    },
+    {
+      "trigger": { "keywords": ["평화", "쉬", "바람", "하늘", "자연", "산", "바다"] },
+      "analysis": {
+        "emotionKeywords": ["평화", "휴식", "자연"],
+        "mood": "고요한",
+        "emotionClass": "400 (자연과학) · 600 (예술)",
+        "description": "가사에서 고요한 평화와 자연에 대한 동경이 느껴집니다. 잠시 멈추고 숨 쉬는 것, 그것만으로도 충분합니다."
+      },
+      "mappingIds": ["em15", "em16"]
+    }
+  ],
+  "defaultResponse": {
+    "analysis": {
+      "emotionKeywords": ["복합적 감정", "내면의 울림"],
+      "mood": "복합적",
+      "emotionClass": "100 (철학/심리)",
+      "description": "입력하신 가사에서 여러 감정이 복합적으로 느껴집니다. 음악이 전하는 감정은 때로 말로 표현하기 어렵지만, 그 자체로 의미가 있습니다."
+    },
+    "mappingIds": ["em1", "em7"]
+  }
+}

@@ -1,0 +1,23 @@
+[
+  { "id": "bg1", "userId": "u1", "zone": "bookclub", "earnedAt": "2026-01-15T00:00:00Z" },
+  { "id": "bg2", "userId": "u1", "zone": "narration", "earnedAt": "2026-01-20T00:00:00Z" },
+  { "id": "bg3", "userId": "u1", "zone": "listening", "earnedAt": "2026-02-08T00:00:00Z" },
+  { "id": "bg4", "userId": "u1", "zone": "writing", "earnedAt": "2026-02-05T00:00:00Z" },
+  { "id": "bg5", "userId": "u1", "zone": "review", "earnedAt": "2026-02-05T00:00:00Z" },
+  { "id": "bg6", "userId": "u2", "zone": "bookclub", "earnedAt": "2026-01-15T00:00:00Z" },
+  { "id": "bg7", "userId": "u2", "zone": "narration", "earnedAt": "2026-02-06T00:00:00Z" },
+  { "id": "bg8", "userId": "u2", "zone": "writing", "earnedAt": "2026-02-03T00:00:00Z" },
+  { "id": "bg9", "userId": "u2", "zone": "review", "earnedAt": "2026-01-28T00:00:00Z" },
+  { "id": "bg10", "userId": "u3", "zone": "writing", "earnedAt": "2026-02-06T00:00:00Z" },
+  { "id": "bg11", "userId": "u3", "zone": "review", "earnedAt": "2026-02-03T00:00:00Z" },
+  { "id": "bg12", "userId": "u3", "zone": "listening", "earnedAt": "2026-02-07T00:00:00Z" },
+  { "id": "bg13", "userId": "u4", "zone": "writing", "earnedAt": "2026-02-07T00:00:00Z" },
+  { "id": "bg14", "userId": "u4", "zone": "review", "earnedAt": "2026-02-07T00:00:00Z" },
+  { "id": "bg15", "userId": "u5", "zone": "narration", "earnedAt": "2026-02-08T00:00:00Z" },
+  { "id": "bg16", "userId": "u5", "zone": "writing", "earnedAt": "2026-02-04T00:00:00Z" },
+  { "id": "bg17", "userId": "u5", "zone": "review", "earnedAt": "2026-02-01T00:00:00Z" },
+  { "id": "bg18", "userId": "u6", "zone": "writing", "earnedAt": "2026-02-01T00:00:00Z" },
+  { "id": "bg19", "userId": "u6", "zone": "review", "earnedAt": "2026-01-30T00:00:00Z" },
+  { "id": "bg20", "userId": "u7", "zone": "writing", "earnedAt": "2026-02-02T00:00:00Z" },
+  { "id": "bg21", "userId": "u7", "zone": "review", "earnedAt": "2026-02-04T00:00:00Z" }
+]
